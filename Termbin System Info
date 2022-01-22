@@ -1,0 +1,44 @@
+System:    Kernel: 5.4.0-96-generic x86_64 bits: 64 compiler: gcc v: 9.3.0 Desktop: Cinnamon 5.0.7 
+           wm: muffin dm: LightDM Distro: Linux Mint 20.2 Uma base: Ubuntu 20.04 focal 
+Machine:   Type: Laptop System: Apple product: MacBookPro7,1 v: 1.0 serial: <filter> Chassis: 
+           type: 10 v: Mac-F222BEC8 serial: <filter> 
+           Mobo: Apple model: Mac-F222BEC8 serial: <filter> UEFI: Apple 
+           v: MBP71.88Z.0039.B0E.1111071400 date: 11/07/11 
+Battery:   ID-1: BAT0 charge: 30.9 Wh condition: 52.8/62.9 Wh (84%) volts: 11.1/10.9 
+           model: DP bq20z451 serial: N/A status: Discharging 
+CPU:       Topology: Dual Core model: Intel Core2 Duo P8600 bits: 64 type: MCP arch: Penryn rev: A 
+           L2 cache: 3072 KiB 
+           flags: lm nx pae sse sse2 sse3 sse4_1 ssse3 vmx bogomips: 9556 
+           Speed: 2381 MHz min/max: 798/2394 MHz Core speeds (MHz): 1: 2323 2: 2070 
+Graphics:  Device-1: NVIDIA MCP89 [GeForce 320M] vendor: Apple driver: nvidia v: 340.108 
+           bus ID: 04:00.0 chip ID: 10de:08a0 
+           Display: x11 server: X.Org 1.20.13 driver: nvidia resolution: 1280x800~60Hz 
+           OpenGL: renderer: GeForce 320M/integrated/SSE2 v: 3.3.0 NVIDIA 340.108 
+           direct render: Yes 
+Audio:     Device-1: NVIDIA MCP89 High Definition Audio driver: snd_hda_intel v: kernel 
+           bus ID: 00:08.0 chip ID: 10de:0d94 
+           Sound Server: ALSA v: k5.4.0-96-generic 
+Network:   Device-1: Broadcom and subsidiaries BCM4322 802.11a/b/g/n Wireless LAN 
+           vendor: Apple AirPort Extreme driver: wl v: kernel port: 2280 bus ID: 02:00.0 
+           chip ID: 14e4:432b 
+           IF: wlp2s0 state: up mac: <filter> 
+           Device-2: Broadcom and subsidiaries NetXtreme BCM5764M Gigabit Ethernet PCIe 
+           driver: tg3 v: 3.137 port: 2280 bus ID: 03:00.0 chip ID: 14e4:1684 
+           IF: enp3s0 state: down mac: <filter> 
+Drives:    Local Storage: total: 223.57 GiB used: 38.95 GiB (17.4%) 
+           ID-1: /dev/sda vendor: Crucial model: CT240BX500SSD1 size: 223.57 GiB speed: 3.0 Gb/s 
+           serial: <filter> 
+Partition: ID-1: / size: 218.57 GiB used: 38.94 GiB (17.8%) fs: ext4 dev: /dev/sda2 
+Sensors:   System Temperatures: cpu: 52.0 C mobo: N/A gpu: nvidia temp: 56 C 
+           Fan Speeds (RPM): N/A 
+Repos:     No active apt repos in: /etc/apt/sources.list 
+           Active apt repos in: /etc/apt/sources.list.d/official-package-repositories.list 
+           1: deb http: //packages.linuxmint.com uma main upstream import backport
+           2: deb http: //mirror.cogentco.com/pub/linux/ubuntu focal main restricted universe multiverse
+           3: deb http: //mirror.cogentco.com/pub/linux/ubuntu focal-updates main restricted universe multiverse
+           4: deb http: //mirror.cogentco.com/pub/linux/ubuntu focal-backports main restricted universe multiverse
+           5: deb http: //security.ubuntu.com/ubuntu/ focal-security main restricted universe multiverse
+           6: deb http: //archive.canonical.com/ubuntu/ focal partner
+Info:      Processes: 199 Uptime: 1h 23m Memory: 5.55 GiB used: 1.89 GiB (34.0%) Init: systemd 
+           v: 245 runlevel: 5 Compilers: gcc: 9.3.0 alt: 9 Client: Unknown python3.8 client 
+           inxi: 3.0.38 
