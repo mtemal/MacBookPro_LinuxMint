@@ -1,4 +1,4 @@
-# MacBookPro 7,1 Running Linux Mint 20.2 Uma January 2022 Guide: 
+# MacBookPro 7,1 | Running Linux Mint 20.2 Uma January 2022 Guide: 
 
 I decided to revive my old Macbook Pro Late 2010 / 7,1. and Install UT99 for some retro gaming goodness. Below are the steps I used to get it all working. 
 
