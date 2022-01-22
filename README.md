@@ -65,7 +65,7 @@ extract the .zip file so that the .bin and .cue files are present in the Downloa
 
 iat 'Unreal Tournament (USA) (Disc 1) (Game of the Year Edition) (Rerelease).bin' > UT.iso
 
-**Mount and Install UT99 and Patch 469b**
+**Mount and Install UT99 and Patch 469b:**
 
 sudo mount -o loop UT.iso /mnt  
 cd /mnt  
