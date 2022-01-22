@@ -35,7 +35,7 @@ Fix 3: I used System Settings Keyboard to create shortcuts to control the screen
 
 sudo apt install xbacklight
 
-Increase screen brightness:
+Increase screen brightness:  
 xbacklight -inc 02 -time 0  
 
 Decrease screen brightness:  
