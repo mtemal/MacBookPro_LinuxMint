@@ -42,7 +42,7 @@ Decrease screen brightness:
 xbacklight -dec 02 -time 0  
 
 
-**Download UT99 and Patch 469b** 
+**Download UT99 and Patch 469b:** 
 
 Download UT99 from Archive.org:  
 https://ia902800.us.archive.org/15/items/UnrealTournamentGOTYUSA/Unreal%20Tournament%20%28USA%29%20%28Disc%201%29%20%28Game%20of%20the%20Year%20Edition%29%20%28Rerelease%29.zip  
