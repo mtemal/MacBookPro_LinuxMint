@@ -27,12 +27,15 @@ GRUB_TERMINAL=console
     
 sudo updategrub
 
-Heads Up: If you get garbled video on boot: type in your password then hit enter. Hit CTRL+ALT+DEL 2x and it shoud show the NVIDIA Logo and display properly.
+Heads Up: If you get garbled video on boot: type in your password then hit enter. Hit CTRL+ALT+DEL 2x and it shoud show the NVIDIA Logo and then display properly. You will need to login again.
 
 
 Fix 3: I used System Settings Keyboard to create shortcuts to control the screen brightness controls:
 
-Increase screen brightness:  
+
+sudo apt install xbacklight
+
+Increase screen brightness:
 xbacklight -inc 02 -time 0  
 
 Decrease screen brightness:  
