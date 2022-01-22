@@ -1,0 +1,34 @@
+The files in this folder are what I used to configure grub to work with the Nvidia driverss. 
+
+grub is a backup copy of my /etc/default/grub  
+01_enable_vga.conf is a backup copy of /etc/grub.d/01_enable_vga.conf  
+
+sudo update-grub  
+
+Note, screwing this up can break your system. You can use a Live OS to recover your bricked system using chroot:
+
+mkdir -p /mnt/rescue
+mount /dev/md2 /mnt/rescue
+mount --bind /dev /mnt/rescue/dev/
+mount --bind /proc /mnt/rescue/proc/
+mount --bind /sys /mnt/rescue/sys/
+
+Properly exiting chroot: 
+You have to first exit the chroot session, usually a simple exit will do:
+
+exit
+
+Then umount ALL binded directories:
+
+umount /mnt/rescue/dev/
+umount /mnt/rescue/proc/
+umount /mnt/rescue/sys/
+
+Then:
+
+umount /mnt/rescue
+
+
+Further Reading on chroot:
+https://www.redhat.com/en/blog/chroot-security-feature
+https://unix.stackexchange.com/questions/61885/how-to-unmount-a-formerly-chrootd-filesystem
