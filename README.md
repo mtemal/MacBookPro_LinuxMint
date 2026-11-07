@@ -73,3 +73,20 @@ wine Setup.exe
 cd ~  
 cd Downloads/  
 wine OldUnreal-UTPatch469b-Windows.exe  
+
+
+
+****** Note, its now 2026 ******
+
+updates happened and now there are issues with color within white windows.
+I see teal on white. Its very weird.
+
+Run this command to figure out what Hardware you have:
+
+lspci -vnn | grep -i NVIDIA | grep VGA
+
+My Macbook is running the NVIDIA MCP89 (GeForce 320M)
+
+
+
+
